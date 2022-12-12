@@ -1,0 +1,228 @@
+.app{
+  display: block;
+}
+.header{
+  padding: 50px;
+  padding-bottom: 20px;
+  background-color: black;
+  font-size: xxx-large;
+  color: aliceblue;
+}
+
+.controls{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.controls label{
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: large;
+}
+
+.controls input{
+  outline-style: none ;
+  border: 1px solid #ccc; 
+  border-radius: 3px;
+  padding: 4px 4px;
+  font-size: 22px;
+}
+
+.controls button{
+  margin-left: 10px;
+  padding: 4px 4px;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px #999;
+  
+}
+.controls button:hover {
+  background-color: black;
+  color: white;
+}
+.controls button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
+.controls h3{
+  margin-right: 50px;
+  text-align: end;
+
+}
+.buttons{
+  margin-right: 50px;
+  text-align: end;
+}
+
+
+.cart{
+
+  margin: 30px;
+  background-color: lightgray;
+}
+
+
+.cart_back{
+  width: 80px;
+  margin: 10px;
+  padding: 10px 10px;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+}
+
+.cart_back:hover {
+  background-color: black;
+  color: white;
+}
+
+.cartInfo{
+  display:grid;
+  grid-template-areas:
+  "productList userInfo";
+  grid-template-columns: 50% 50%;
+}
+
+.total_price{
+  margin: 30px;
+  padding: 10px;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: black;
+
+}
+
+.productList{
+  grid-area: productList;
+  background-color: lightgray;
+  padding-bottom: 50px;
+}
+
+.userInformation{
+  grid-area: userInfo;
+  background-color: lightgray;
+  margin-right: 20%;
+  text-align: end;
+}
+
+.userInformation input{
+  margin: 10px;
+  outline-style: none ;
+  border-radius: 3px;
+  padding: 4px 4px;
+  font-size: 22px;
+}
+
+.userInformation label{
+  margin-right: 10px;
+  font-size: large;
+}
+
+.checkout_button{
+  margin-top: 50px;
+  margin-right: 100px;
+
+  width: 100px;
+  padding: 10px 10px;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+}
+
+.checkout_button:hover {
+  background-color: black;
+  color: white;
+}
+
+.productItem{
+  display: inline-block;
+  margin: 1rem;
+  
+}
+
+.admin_back{
+  width: 80px;
+  margin: 10px;
+  padding: 10px 10px;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+}
+
+.admin_back:hover {
+  background-color: black;
+  color: white;
+}
+
+.adminPage{
+  margin-top: 30px;
+  background-color: lightgray;
+}
+.admin__form{
+  grid-area: userInfo;
+  background-color: lightgray;
+  text-align: end;
+  margin-right: 40%;
+}
+
+.admin__form input{
+  margin: 20px;
+  outline-style: none ;
+  border-radius: 3px;
+  padding: 4px 4px;
+  font-size: 22px;
+}
+
+.admin__form label{
+  margin-right: 20px;
+  font-size: large;
+}
+
+.admin__button{
+  margin:80px;
+  width: 200px;
+  padding: 10px 10px;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+}
+
+.productItem{
+  background-color: lightgrey;
+  text-align: center;
+  width:300px;
+  height: 500px;
+
+}
+
+.productItem img{
+  margin-top: 20px;
+  width:250px;
+}
+
+.add_button{
+  width: 200px;
+  padding: 10px 10px;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+}
+
+.add_button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+main{
+  min-height: 1500px;
+}
+
+.footer{
+  text-align: center;
+}
+
